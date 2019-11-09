@@ -51,6 +51,6 @@ app.use('/api/user', users);
 app.use('/api/admin/auth', admin);
 // app.use('/api/user', passport.authenticate('jwt', {session: false}), users);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5100;
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
