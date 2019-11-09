@@ -1,0 +1,45 @@
+{
+  "name": "api-qotd",
+  "version": "1.0.0",
+  "description": "Quotes of the day api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm server.js",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\""
+  },
+  "keywords": [
+    "Quotes",
+    "of",
+    "the",
+    "day",
+    "api"
+  ],
+  "author": "Aneep Tandel",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "gmail-send": "^1.8.10",
+    "gravatar": "^1.8.0",
+    "jquery": "^3.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.6",
+    "multer": "^1.4.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "save-buffer": "^1.2.0",
+    "twin-bcrypt": "^2.1.1",
+    "uuid": "^3.3.3",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
