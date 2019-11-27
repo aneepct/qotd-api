@@ -12,6 +12,8 @@ dotenv.config();
 const auth = require('./routes/api/auth');
 // Getting user routes
 const users = require('./routes/api/users');
+// Category routes
+const category = require('./routes/api/category');
 
 //Getting admin routes
 const admin = require('./routes/api/admin/auth');
@@ -46,6 +48,7 @@ require('./config/passport')(passport);
 // User route
 app.use('/api/auth', auth);
 app.use('/api/user', users);
+app.use('/api/category', category);
 
 // Admin route
 app.use('/api/admin/auth', admin);

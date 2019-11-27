@@ -9,11 +9,11 @@ const CategorySchema = new Schema({
   },
   alias: {
     type: String,
-    require: true
+    require: false
   },
   banner: {
     type: String,
-    require: true
+    require: false
   },
   date: {
     type: Date,
